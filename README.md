@@ -4,7 +4,7 @@ After that, it reads the data, and we'll get some print output.
 
 
 
-Example........
+#Example(Finding-the-Restricted-Parts-of-a-Web-Site)
 
 
 change the last line of the get robots function, and instead of a simple site, let’s crawl a comparatively heavy site like https://www.reddit.com. 
@@ -54,4 +54,10 @@ Allow: /
 Allow: /sitemaps/*.xml
 Sitemap: https://www.reddit.com/sitemaps/subreddit-sitemaps.xml 
 Sitemap: https://www.reddit.com/sitemaps/comment-page-sitemaps. xml
+Process finished with exit code 0
+
+
+#Example(Finding IP address using URL)
+ip = socket.gethostbyname("google.com")
+142.250.193.14
 Process finished with exit code 0
