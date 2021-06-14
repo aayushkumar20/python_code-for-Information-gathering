@@ -1,0 +1,1 @@
+# python_code-for-Finding-the-Restricted-Parts-of-a-Web-Site
